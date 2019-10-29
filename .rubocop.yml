@@ -9,6 +9,7 @@ AllCops:
     - '*.cfg'
     - '*.yml'
     - 'Gemfile'
+    - 'node_modules/**/*'
   DisplayCopNames: true
 
 Metrics/LineLength:
