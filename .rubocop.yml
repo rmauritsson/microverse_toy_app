@@ -1,10 +1,14 @@
 AllCops:
+
   Exclude:
     - "bin/*"
     - "db/**/*"
     - "config/**/*"
     - "Guardfile"
     - "Rakefile"
+    - '*.cfg'
+    - '*.yml'
+    - 'Gemfile'
   DisplayCopNames: true
 
 Metrics/LineLength:
